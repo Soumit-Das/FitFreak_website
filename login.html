@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+   
+</head>
+<body>
+<!-- ---------------------------------------login----------- -->
+
+<div class="login">
+
+
+    <div class="log">
+ 
+
+        <form id="login"class="input-login">
+
+            <input type="text" id="mailid" class="input-field" placeholder="Email Id" required>
+          
+         <input type="submit" class="submit-bt">
+         <input type="submit" class="submit-btn">
+         <span >* By Continuing you agree to the Terms of Services and Privacy policy.</span>
+
+
+
+        </form>
+
+       
+
+    </div>
+
+</div>
+
+
+  
+</body>
+</html>
+
+<script>
+
+let x =document.getElementById("login");
+// let y = document.getElementById("resgister")
+// let z= document.getElementById("over")
+
+ 
+
+ document.getElementById("resgister").addEventListener("submit",data);
+
+    let bag = JSON.parse(localStorage.getItem("Data"))||[]
+
+ function data(event){
+
+  event.preventDefault();
+
+  let Name =  document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+
+  let Pass = document.getElementById("password").value
+
+
+  let obj  ={
+
+    Name,
+    email,
+    Pass
+
+
+  }
+
+  bag.push(obj);
+
+  localStorage.setItem("Data",JSON.stringify(bag));
+
+  res();
+
+
+ }
+
+
+ document.getElementById("login").addEventListener("submit",log);
+
+ function log(){
+
+  // event.preventDefault();
+
+  let mail = document.getElementById("mailid").value;
+
+  let pass = document.getElementById("Pass").value;
+
+      bag.forEach((elem) => {
+        
+
+        if(elem.email==mail){
+
+            if(elem.Pass==pass){
+
+              alert("done")
+
+            }else{
+
+              alert("wrong password")
+            }
+
+
+
+        }
+        else{
+
+          alert("wrong email")
+        }
+
+
+
+      });  
+
+ }
+
+  
+ 
+ 
+
+  
+  </script>
+  
