@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+     
+   
+  
+   
+  /* -----------------------------login-------------------------- */
+  
+  .login{
+  
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  
+  }
+  .log{
+  
+  
+  width: 360px;
+  height: 580px;
+  position: relative;
+  margin: 6% auto;
+  background: #161515;
+  padding: 5px;
+  border: 1px solid white;
+  /* overflow: hidden; */
+  
+  
+  }
+  
+ 
+  
+  .input-login{
+  
+      top: 250px;
+      position: absolute;
+      width: 300px;
+      transition: .5s;
+  }
+  
+  .input-field{
+  
+      width: 97%;
+      padding: 10px 0;
+      margin: 5px 0;
+      border-left: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 1px solid #999;
+      /* outline: none; */
+      /* background: transparent; */
+      padding-left: 10px;
+      border-radius: 5px;
+  }
+
+  .submit-bt{
+
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    /* display: block; */
+    margin: auto;
+  
+    font-weight: bold;
+    font-size: 17px;
+    
+    background: white;
+
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+  .submit-btn{
+  
+  
+      width: 100%;
+      padding: 10px 30px;
+      cursor: pointer;
+      /* display: block; */
+      margin: auto;
+    
+      font-weight: bold;
+      font-size: 17px;
+      
+      background: white;
+  
+      border: 0;
+      outline: none;
+      border-radius: 5px;
+      margin-top: 25px;
+      margin-bottom: 50px;
+
+  }
+  
+  .check-box{
+  
+      margin: 30px 10px 30px 0;
+  
+  }
+  
+  #login{
+  
+  
+      left: 40px;
+  }
+  span{
+
+    color: white;
+    font-size: 14px;
+    /* padding: 100px; */
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+   
