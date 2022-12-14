@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #navbar{
+            border: 0px solid red;
+            height: 50px;
+            width: auto;
+            margin-top: 65px;
+            display: flex;
+            gap: 10px;
+           background-color: #393a3b;
+           color: white;
+           font-size: 20px;
+           cursor: pointer;
+        }
+          #navbar>#navbar1{
+          border: 0px solid red;
+          width: 20%;
+          height: 30px;
+          margin: auto;
+           gap: 40px;
+         display: flex;
+        
+          }
+          #navbar>#navbar1>.nav{
+            border: 0px solid blue;
+          }
+          #jd{
+            border: 0px solid red;
+            height: 250px;
+            width: 80%;
+            margin: auto;
+            cursor: pointer;
+          }
+          #jd>img{
+            width: 100%;
+            height: 250px;
+          }
+          #jd1{
+            border: 0px solid red;
+            width: 40%;
+            margin-top: 40px;
+            margin-left: 150px;
+            cursor: pointer;
+          }
+          #jd2{
+            border: 0px solid red;
+            height: auto;
+            width: 80%;
+            margin: auto;
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            justify-content: space-around;
+            cursor: pointer;
+          }
+          #jd2>div{
+            border: 0px solid blue;
+            height: 250px;
+            width: 90%;
+            border-radius: 10px;
+          }
+          #jd2>div>img{
+            width: 100%;
+            height: 250px;
+          }
+          #jd2>div>h2{
+           margin-top: -230px;
+           margin-left: 20px;
+          }
+          #jd2>div>h4{
+              border: 0px solid red;
+              height: 100px;
+              width: 60%;
+            margin-top: -10px;
+            margin-left: 20px;
+          }
+          #jd2>div>p{
+            margin-top: -60px;
+            margin-left: 20px;
+          }
+          #jd2>div>h3{
+            margin-top: 40px;
+            margin-left: 20px;
+          }
+          #jd3{
+            border: 0px solid red;
+            height: auto;
+            width: 80%;
+            margin: auto;
+            margin-top: 50px;
+            cursor: pointer;
+          }
+         
+          #jd3>img{
+            width: 100%;
+          }
+            
+          #jd4>img{
+            width: 100%;
+            cursor: pointer;
+          }
+          #jd5{
+            border: 0px solid red;
+            height: auto;
+            width: 100%;
+            margin: auto;
+            margin-top: 20px;
+             color: white;
+             background-color: #171a26;
+             cursor: pointer;
+          }
+          #jd5>h4{
+            border: 0px solid red;
+            height: 40px;
+            width: 20%;
+            margin-left: 80%;
+          
+          }
+          #jd5>h1{
+            border: 0px solid red;
+            height: 40px;
+            width: 20%;
+            margin-left: 12%;
+            
+          }
+          #jd5>h3{
+            border: 0px solid red;
+            height: auto;
+            width: 20%;
+            margin-left: 12%;
+            
+          }
+          #jd5>#accordion{
+            margin: 50px auto;
+            width: 600px;
+            margin-left: 10%;
+          }
+          #jd5>#accordion li{
+            list-style: none;
+            width: 100%;
+            margin-bottom: 10px; 
+            padding: 10px;
+            border-radius: 4px;
+          }
+          #jd5>#accordion li label{
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+          }
+          #jd5>#accordion li label span{
+            transform: rotate(90deg);
+            font-size: 22px;
+          }
+          #accordion label + input[type="radio"]{
+            display: none;
+          }
+          #accordion .content{
+                padding: 0 10px;
+                line-height: 26px;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.5s;
+          }
+          #accordion label + input[type="radio"]:checked + .content{
+              max-height: 400px;
+          }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="navbar1">
+        <div class="nav">
+            Therapy
+        </div>
+        <div class="nav">
+            Mindfulness
+        </div>
+    </div>
+    </div>
+    <div id="jd">
+       <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/f87f914f-7a53-4a80-b9b6-d85d80fae1cb.png" alt="">
+    </div>
+    <div id="jd1">
+        <h2>EXPERTS TO HELP YOU</h2>
+    </div>
+    <div id="jd2">
+     <div>
+     <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/9355d11a-f088-4f10-b9df-72ea3ecf8e0b.png" alt="">
+     <h2>Therapy</h2>
+     <h4>Expert who help solve emotional problems ₹1300</h4>
+     <p>50 Mins session</p>
+     <h3>₹1300</h3>
+     </div>
+     <div>
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/9ce1d9a2-d3c6-4a19-91bd-028d52f58c84.png" alt="">
+        <h2>Couple Therapy</h2>
+        <h4>Resolve emotional conflicts in relationship and marriage ₹1800</h4>
+        <p>50 Mins session</p>
+        <h3>₹1800</h3>
+        </div>
+        <div>
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/5e9f8ee5-83dd-4dca-beca-61885323ce3c.png" alt="">
+            <h2>Covid Stress</h2>
+            <h4>Seek expert help from our therapists for coping with isolation and COVID-releted stress and worry ₹1300</h4>
+            <p>50 Mins session</p>
+            <h3>₹1300</h3>
+         </div>
+         <div>
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/84248218-f8c0-44d8-b2d6-be415b742b9a.png" alt="">
+             <h2>Better Sleep</h2>
+             <h4>Consult with expert to learn effective strategies for restfull sleep and good sleep health ₹1300</h4>
+              <p>50 Mins session</p>
+              <h3>₹1300</h3>
+              </div>
+        <div>
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/dcd1728e-d7dc-4952-b552-b1b1c97e9ac1.png" alt="">
+              <h2>Rise to Confidance</h2>
+               <h4>Grow into more confident and self-assured you by talkig to our expert ₹1300</h4>
+               <p>50 Mins session</p>
+               <h3>₹1300</h3>
+         </div>
+         <div>
+             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/18a8d3b2-d262-4f78-908b-79a55a40ef68.png" alt="">
+              <h2>Thrive at work</h2>
+           <h4>Make work fulfilling and meaningful with the help of our expert ₹1300</h4>
+              <p>50 Mins session</p>
+               <h3>₹1300</h3>
+          </div>
+            <div>
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/aebc57c2-ee58-41f7-a854-00fb5c5d55f9.png" alt="">
+              <h2>Transform your Thinking</h2>
+          <h4>Manage negative or anxious thoughts or overthinking ₹1300</h4>
+            <p>50 Mins session</p>
+               <h3>₹1300</h3>
+          </div>
+          <div>
+               <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/1a2d8f7e-2c24-4cbf-88be-e2cf266dfa23.png" alt="">
+              <h2>Healthy Relationship</h2>
+               <h4>understand your relationship pattern and exploring healthy ways of connectiong ₹1300</h4>
+                <p>50 Mins session</p>
+               <h3>₹1300</h3>
+             </div>
+        </div>
+        <div id="jd3">
+               
+               <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/8d058e84-f098-4129-b107-dc81c19af2f1.png" alt="">
+        </div>
+        <div id="jd4">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/7f7af73c-3ee3-46c1-9129-0df18dbb02ac.png" alt="">
+        </div>
+        <div id="jd5">
+            <h4>SEE ALL</h4>
+           <h1>FAQS</h1>
+           <h3>7 QUESTIONS</h3>
+           
+            <ul id="accordion">
+                <li>
+                    <label for="first">Is Therapy for me? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="first" checked>
+                    <div class="content">
+                        <p>Whether you are experiencing symptoms that come in the way of daily living or want to explore issues experienced in the past or are keen on enhancing your wellbeing and growth in life - therapy is suitable for all.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="second">What should I expect during my first therapy session? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="second">
+                    <div class="content">
+                        <p>Your therapist will focus on getting to know you better through the first session. Together, the two of you will identify goals for follow up sessions. Your therapist may also share a few exercises for you to practice, if relevant.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="third">What is the difference between a Therapist and a Psychiatrist? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="third" >
+                    <div class="content">
+                        <p>Therapists go deep into our problems with us. They help us understand ourselves better and plan for recovery without using medicines. Psychiatrists diagnose and treat chronic mental health conditions and may use medicines</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="four">What does a Therapy pack offer? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="four" >
+                    <div class="content">
+                        <p>A Therapy pack helps with continuity of your wellness journey, without having to bother about booking sessions one at a time. Your Therapist will recommend the number of sessions that you might need to address your challenges. We recommend you buy a pack only after a discussion with the therapist.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="five">How to book a 1 on 1 Therapy session? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="five" >
+                    <div class="content">
+                        <p>Here’s how you can book a therapy session from the cure.fit app: Log into the cure.fit app From the bottom of the To-Do page, pick mind.fit Pick 1 on 1 therapy Pick a preferred center and time slot Make a payment That’s all!</p>
+                    </div>
+                </li>
+            </ul>
+           
+        </div>
+</body>
+</html>
