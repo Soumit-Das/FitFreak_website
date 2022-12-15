@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Details</title>
+    <style>
+        img {
+            border-radius: 10px;
+        }
+
+        #cont {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+
+        .shadow,
+        #buy {
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            transition: 0.3s;
+        }
+
+        .shadow:hover {
+            scale: 1.1;
+        }
+
+        .shadow {
+            padding: 15px 0px;
+            border-radius: 3px;
+            background-color: white;
+        }
+
+        #top {
+            width: 70%;
+        }
+
+        #test img,
+        #addons img {
+            width: 40%;
+            display: flex;
+            margin: auto;
+        }
+
+        #test>div,
+        #addons>div {
+            width: 20%;
+        }
+
+        #cont>div:nth-child(1) {
+            width: 40%;
+        }
+
+        #cont>div:nth-child(2) {
+            width: 50%;
+        }
+
+        #top {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #buy {
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        #buynow {
+            height: 40px;
+            padding: 0px 40px;
+            border-radius: 40px;
+            border: none;
+            margin-top: 30px;
+            background-color: rgba(248, 3, 3, 0.662);
+            color: white;
+        }
+
+        #head {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #beneth {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #test {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #addons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #cont>div:nth-child(1)>img {
+            margin-top: 30px;
+            margin-left: 50px;
+            width: 60%;
+        }
+
+        #bottom {
+            border-radius: 10px;
+            border: 1px solid slategrey;
+            padding: 25px;
+        }
+
+        #botop {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #knowmore {
+            color: rgb(234, 10, 10);
+        }
+
+        #knowmore:hover {
+            text-decoration: underline;
+        }
+
+        #sec {
+            border-radius: 7px;
+            background-color: rgba(128, 128, 128, 0.13);
+        }
+
+        #first,
+        #sec {
+            padding: 5px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cont">
+        <div id="photu">
+            <!-- <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/FitCheckHero012020.png"
+                alt=""> -->
+                <!-- <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FitCheck_Magazine-02.png" alt=""> -->
+        </div>
+        <div>
+            <div id="top">
+                <span>
+                    <p>Home</p>
+                </span>
+                <span>
+                    <p>></p>
+                </span>
+                <span>
+                    <p>Care</p>
+                </span>
+                <span>
+                    <p>></p>
+                </span>
+                <span>
+                    <p>Diagnostics Tests</p>
+                </span>
+                <span>
+                    <p>></p>
+                </span>
+                <span>
+                    <p class="head"></p>
+                </span>
+            </div>
+            <div id="buy">
+                <div id="head">
+                    <div>
+                        <h1 id="heading"></h1>
+                    </div>
+                    <div>
+                        <h2 id="rate"></h2>
+                    </div>
+                </div>
+                <p id="disc">
+                    <!-- This test will help you understand the status of your key health indicators. It helps in early
+                    detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver,
+                    kidney, heart and blood. -->
+                </p>
+                <div id="beneth">
+                    <div>
+                        <p>73 Tests</p>
+                        <p>Report Ready in 36 Hrs</p>
+                    </div>
+                    <button id="buynow">Buy Now</button>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div id="first">
+                <h2>Tests Included</h2>
+                <div id="test">
+                    <div>
+                        <div class="shadow">
+                            <img src="https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00168.jpg"
+                                alt="">
+                        </div>
+                        <p>Complete \n Haemogram...</p>
+                    </div>
+                    <div>
+                        <div class="shadow">
+                            <img src="https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00208.jpg"
+                                alt="">
+                        </div>
+                        <p>Glucose - Fasting \n Blood (FBS)</p>
+                    </div>
+                    <div>
+                        <div class="shadow">
+                            <img src="https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00004.jpg"
+                                alt="">
+                        </div>
+                        <p>Glycosylated \n Haemoglobin...</p>
+                    </div>
+                    <div>
+                        <div class="shadow">
+                            <img src="https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00336.jpg"
+                                alt="">
+                        </div>
+                        <p>Kidney Function Test \n (KFT)</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="sec">
+                <h2>Recommended Addons</h2>
+                <p>Get better prices for these tests with this profile</p>
+                <div id="addons">
+                    <div>
+                        <div class="shadow">
+                            <img src="https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00004.jpg"
+                                alt="">
+                        </div>
+                        <p>Vitamin Screening...</p>
+                        <h4>₹ 890</h4>
+                    </div>
+                    <div>
+                        <div class="shadow">
+                            <img src="https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00004.jpg"
+                                alt="">
+                        </div>
+                        <p>Vitamin Screening...</p>
+                        <h4>₹ 890</h4>
+                    </div>
+                    <div>
+                        <div class="shadow">
+                            <img src="https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00329.jpg"
+                                alt="">
+                        </div>
+                        <p>Vitamin Screening...</p>
+                        <h4>₹ 890</h4>
+                    </div>
+                    <div>
+                        <div class="shadow">
+                            <img src="https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00128.jpg"
+                                alt="">
+                        </div>
+                        <p>Vitamin Screening...</p>
+                        <h4>₹ 890</h4>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div id="bottom">
+                <div id="botop">
+                    <p>Fulfilled By</p>
+                    <h3 id="knowmore">Know more</h3>
+                </div>
+                <li>DMLT and WHO certified phlebotomists</li>
+                <li>46 touch-point technology for assured quality collection & testing</li>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
+
+<script src="cardpg.js"></script>
