@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            margin: 0px;
+        }
+        #navbar{
+            border: 0px solid red;
+            height: 50px;
+            width: auto;
+            margin-top: 65px;
+            display: flex;
+            gap: 10px;
+           background-color: #393a3b;
+           color: white;
+           font-size: 20px;
+           cursor: pointer;
+        }
+          #navbar>#navbar1{
+          border: 0px solid red;
+          width: 20%;
+          height: 30px;
+          margin: auto;
+           gap: 40px;
+         display: flex;
+        
+          }
+          #navbar>#navbar1>.nav{
+            border: 0px solid blue;
+          }
+          #jd{
+            border: 0px solid red;
+            height: 400px;
+            width: 80%;
+            margin: auto;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-evenly;
+          }
+          #jd>div{
+            border: 0px solid blue;
+            height: 400px;
+            width: 45%;
+          }
+          #jd>div>img{
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+          }
+          #jd>div>h4{
+            font-size: 30x;
+           }
+          #jd>div>h3{
+            margin-top: 50px;
+          }
+          #jd>div>p{
+            margin-top: 10px;
+          }
+          #jd>div>hr{
+            margin-top: 50px;
+          }
+          #jd1{
+            border: 0px solid red;
+            width: 40%;
+            height: 50px;
+            margin-left: 53%;
+            margin-top: -80px;
+          }
+          #jd1>input{
+            margin-top: 20px;
+          }
+          #jd2{
+            border: 0px solid red;
+            width: 40%;
+            height: 300px;
+            margin-left: 53%;
+            margin-top: 20px;
+            overflow: scroll;
+          }
+          #jd2>.main{
+            border: 0px solid red;
+            height: 300px;
+            width: 90%;
+            margin-top: 20px;
+            margin-left: 10px;
+            display: flex;
+            
+          }
+          #jd2>.main>div{
+            border: 0px solid blue;
+            height: 200px;
+            width: 45%;
+          }
+           #jd2>.main img{
+            width: 80%;
+            border-radius: 50%;
+            margin-left: 40px;
+          } 
+          #jd2>.main #vp{
+            display: flex;
+            gap: 10px;
+          }
+          #jd2>.main button{
+           display: inline;
+           border-radius: 10px;
+           background-color: white;
+           color: rgb(212, 45, 101);
+           text-align: center;
+           width: 80%;
+          } 
+          #jd3{
+            border: 0px solid red;
+            height: 1500px;
+            width: 100%;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #171a26;
+            color: white;
+          }
+          #jd3>div{
+            border: 0px solid red;
+            height: 1500px;
+            width: 45%;
+            
+          }
+          #jd3>.FM>h4{
+            border: 0px solid red;
+            width: 40%;
+            margin: auto;
+           margin-left: 5px;
+           margin-top: 20px;
+          }
+          #jd3>.FM1>h4{
+            border: 0px solid red;
+            width: 40%;
+            margin: auto;
+           margin-left: 5px;
+           margin-top: 20px;
+          }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="navbar1">
+        <div class="nav">
+            Therapy
+        </div>
+        <div class="nav">
+            Mindfulness
+        </div>
+    </div>
+    </div>
+    <div id="jd">
+     <div>
+    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_800,c_fit/dpr_2/image/singles/care/tc/MindTherapy.png" alt="">
+     </div>
+     <div>
+       <h4>Home > Care > Doctor Consultation > therapist</h4>
+       <h2>Therapist Consultation</h2>
+       <h3>About</h3>
+       <p>Consult with our experts and begin your therapy journey via video call</p>
+       <hr>
+     </div>
+    </div>
+    <div id="jd1">
+    <input type="search" id="query" name="q" placeholder="Search by name" size="90">     
+    </div>
+     <div id="jd2">
+     <div class="main">
+      <div>
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_100,h_100,c_thumb/dpr_2/image/carefit/doctor/103469_AnkitaJoshi_f821a8d2-965b-4253-8eb9-793fe7181f7e" alt="">
+      </div>
+      <div>
+        <h2>Preeti Asgaonkar</h2>
+        <h4>MA(Applied Psychology)</h2>
+        <h4>Specializes in Self Esteem, Grief, Depression, Anxiety, Stress
+           </h4>
+           <div id="vp">
+           <button>VIEW PROFILE</button>
+           <button>BOOK APPOINMENT</button>
+           </div>
+      </div>
+     </div>
+     <div class="main">
+        <div>
+          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_100,h_100,c_thumb/dpr_2/image/carefit/doctor/105902_SakinaPatanwala_32cdb61f-18d1-4a6d-8764-7549e3f82b0d" alt="">
+        </div>
+        <div>
+          <h2>Sakina Patanwala</h2>
+          <h4>Diploma in Arts - Therapy</h2>
+          <h4>Specializes in Grief, Anger Management, Trauma
+             </h4>
+             <div id="vp">
+             <button>VIEW PROFILE</button>
+             <button>BOOK APPOINMENT</button>
+             </div>
+        </div>
+       </div>
+       <div class="main">
+        <div>
+          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,c_fit/dpr_2/image/carefit/doctor/103722_DimpleKariya_6f4a1921-5f1b-4df3-b5e3-bfff9f58fe3b" alt="">
+        </div>
+        <div>
+          <h2>Dimple Kariya</h2>
+          <h4>MA(Applied Psychology)</h2>
+          <h4>Specializes in Self Esteem, Grief, Depression, Anxiety, Stress
+             </h4>
+             <div id="vp">
+             <button>VIEW PROFILE</button>
+             <button>BOOK APPOINMENT</button>
+             </div>
+        </div>
+       </div>
+       <div class="main">
+        <div>
+          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,c_fit/dpr_2/image/carefit/doctor/106186_AartiBelani_9399b55d-261c-41ad-acf0-ba01f5c2d3b5" alt="">
+        </div>
+        <div>
+          <h2>Aarti Belani</h2>
+          <h4>M.Sc. Counselling Psychology</h2>
+          <h4>Specializes in Personal Growth, Relationships, Trauma
+             </h4>
+             <div id="vp">
+             <button>VIEW PROFILE</button>
+             <button>BOOK APPOINMENT</button>
+             </div>
+        </div>
+       </div>
+       <div class="main">
+        <div>
+          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,c_fit/dpr_2/image/carefit/doctor/106159_DrashtiSenghani_1ca6fc10-62fd-4d98-9f40-a360e67137d8" alt="">
+        </div>
+        <div>
+          <h2>PDrashti Senghani</h2>
+          <h4>M.A., Applied, Clinical and Counselling Psychology</h2>
+          <h4>Specializes in Depression, Grief, Relationships
+             </h4>
+             <div id="vp">
+             <button>VIEW PROFILE</button>
+             <button>BOOK APPOINMENT</button>
+             </div>
+        </div>
+       </div>
+       <div class="main">
+        <div>
+          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,c_fit/dpr_2/image/carefit/doctor/106188_NiloferZafar_0130a60c-f5ac-4a09-aaff-95f5343f385b" alt="">
+        </div>
+        <div>
+          <h2>Nilofer Zafar</h2>
+          <h4>M.A., Clinical Psychology</h2>
+          <h4>Specializes in Depression, Anxiety, Stress
+             </h4>
+             <div id="vp">
+             <button>VIEW PROFILE</button>
+             <button>BOOK APPOINMENT</button>
+             </div>
+        </div>
+       </div>
+     </div>
+     <div id="jd3">
+        <div class="FM">
+          <h4>Therapist Consultation</h4>
+          <p>A consultation with a therapist or a counselor is an informal meeting developing a platform to get to know each other. It provides a chance to realize and understand your problem and how to treat it. A therapist is always ethical in their duty and refers the person to other therapists if they fit better. A therapeutic work starts only after the initial session of consultation to transform the mind. A consultation gives the client the freedom to question the therapist. This provides and builds a more comfortable mindset for the client, and they tend to feel empowered, which is vital for the whole treatment process. With the proper counseling near me option, anyone can opt for it without any hesitation.</p>
+          <h4>How does a Therapist Consultation Work?</h4>
+          <p>Finding the right counsellor or therapist is the most challenging task. But once it is done, half the job is over to start the journey to self-improvement. The goal of any therapist consultation must be to improve the overall mental health, and it is often overlooked in most circumstances. It tends to affect physical health in the long run and so must never be neglected. Starting with a therapist consultation might seem frightening initially, but it becomes effortless by preparing and understanding what to expect. With a therapist near me option, it becomes more hassle-free and accessible to many people</p>
+          <p>Set Goals: The first step is to outline and aim at what to achieve from the counselling. Everyone will have their reasons on why they are taking up the therapy. But the most significant part is to self-analyze why we are there in the first place and move towards our goals. Find a therapist who will bring the best out of you and then work with them.</p>
+          <p>Make Realistic Expectations: Therapy is hugely beneficial and is not magic to cure everyone. And it is also impossible to create a change in a single session. So, understand that it requires a lot of time and work to create a transformation. It might take weeks to years to reach the goal. At times a person will also be destined to meet more than one therapist throughout his journey. Most importantly, it is essential to contribute an equal lending hand to the therapist to see the change happen faster.</p>
+          <p>Give Credit to Self: A mental illness prevents the individual from seeking help and is not easy to deal with. Still, many people make the giant leap and prioritize mental health as important as physical health. Find a counsellor who can maintain and manage good mental health is appreciated and must not be treated differently from the steps we take to handle our physical health.</p>
+          <p>Schedule a Convenient Time: People react differently after a therapy session. There is a particular crowd that feels comfortable continuing with their regular routines immediately after a session. At the same time, few others need time to sit and deal with their feelings and emotions that get rekindled after the session. So, it is highly recommended to schedule the appointment when there are no commitments to be dealt with after the therapy sessions. This ensures that even if an overwhelming feeling surfaces unexpectedly, it can be easily handled without any other commotions.</p>
+          <p>Self-time Before the Session: It is always ideal to have some time for themselves before the session as it helps reduce anxiety and other kinds of mixed emotions. Preparing to open up can be a stressful event and make the heart thump faster. It is perfectly natural to face this response due to cortisol release. Therefore, investing time in oneself by focusing on breathing and staying hydrated helps a smooth therapy session.</p>
+          <p>Ask Questions and be Comfortable: A therapist consultation is not a job interview or a formal event. So, there is no pressure to be well dressed. All an individual has to concentrate on is to be comfortable and dress accordingly. This will help the person to stay relaxed and be themself during the entire session. Another important thing is that there are no such thing as wrong questions during a therapist consultation. Find a counsellor who is calm and friendly with an approachable attitude. Even if the therapist does not have answers to all the questions, they will guide the person. Therefore, one should leave away their fear and put forth everything that crosses their mind. Feel free also to question the therapist's experience, strategies, and life achievements.</p>
+          <p>Finally, be open and honest with your answers and do not take the stress. Stay focused and reflect only on the things going on in your life. Changes will take time, but it is essential to stay calm and patient throughout. More important is that the person is free to change the therapist if they seem like a misfit—making appointments online or opting for counseling near me. Scheduling a virtual therapy consultation is very easy when compared to traditional face-to-face sessions. Online Counseling is fixing significant problems these days effortlessly</p>
+          <h4>What is Personal Counselling?</h4>
+          <p>Personal counseling is an opportunity to receive support and help during difficult times individually from therapists. It is ideal when the person has to discuss personal topics under depression, substance abuse, relationship challenges, marriage problems, parenting issues, career frustrations, anxiety issues, etc. Most times, personal counseling is referred to as psychotherapy as it is a one-on-one session with the therapist through talk therapy. This particular session allows the person to explore their behaviors, beliefs, feelings better, and other influencing factors in life and set their goals to reach and achieve their desired change.</p>
+          <p>A personal counseling session focuses on future concerns in most cases and encompasses the career and its planning into it. It helps individuals deal with problems at the job or even the grievance of death. Any healing session practically becomes very easy and successful with the right therapist and the availability of a psychotherapist near me. Therefore, the therapist involved in these consultation sessions must form an alliance and bond with the person. To proceed further in the healing and transforming journey, trust is the significant factor.</p>
+        </div>
+        <div class="FM1">
+        <h4>Role of Psychotherapists in a Therapist Consultation</h4>
+        <p>A psychotherapist is a person who uses talk therapy to treat people for their mental illness and emotional problems in life. They are categorized into psychotherapists, psychiatrists, counsellors, social workers, and psychologists depending on their specializations and how they work. With a psychotherapist near me option on any online consultation, it is possible to manage and deal with emotional unrest conditions. They are well versed in helping people to recover from depression and anxiety. In rare circumstances, talk therapy includes medications and suggests lifestyle changes to clients depending on their health condition.</p>
+        <p>To be more precise, the role of a psychotherapist is to improve behaviour and manage emotions by also creating a positive change in the body and brain of the individual. They offer a solution to all the problems by engaging in discussions about them with the client. They help people understand what they are facing and make them analyze their conversation to take action that will change their life.</p>
+        <h4>Role of Psychological Counsellors in Therapist Consultations</h4>
+        <p>A psychological counsellor is employed in various places like universities, colleges as teachers, researchers, supervisors, etc. Some are engaged in sectors to provide counselling, assess, and offer advice. A psychological counsellor is capable of providing consulting services to individuals, groups, organizations, and families. They are essentially a part of the mental health centres, rehabilitation agencies, health maintenance organizations, and other service-oriented jobs.</p>
+        <h4>Types of Therapy done during Therapist Consultations</h4>
+        <p>A therapist consultation is suitable for both children and adults, and it might include both short-term and long-term treatment plans. The most common types of therapies done based on the complexity of the problem are:</p>
+        <p>Interpersonal therapy: This is a short-term treatment that helps the person understand the interpersonal issues underlying the problem. It trains the person to express their emotions differently and in a better way to improve their communication skills and seek a solution.</p>
+        <p>Cognitive behavioural therapy: This therapy is used to identify the behaviour changes that cause a harmful result. It enables the individual to work on their thoughts and functional behavioural patterns to solve their problem.</p>
+        <p>Supportive therapy: This involves other supportive treatments like sleep therapy and motivational enhancement therapy to help reduce anxiety, improve social skills, cope with the realistic world, and function as per community needs.</p>
+        <p>Psychodynamic therapy: This is a method to treat childhood trauma and improve a person's mental wellness. Psychodynamic therapy addresses this delicate issue and is considered very useful to create better mental health for the individual. This can be done only by very skilled and experienced therapists, owing to the consequences it might cause when performed improperly.</p>
+        <h4>Summing It Up</h4>
+        <p>If you are struggling with problems that affect your mental health, find a therapist and reach out to them at the earliest. Being lethargic with mental health is like putting your entire life at risk. With the therapist near me, option on the net, one will get access to various sources that offer the best motivation counseling with the proper treatment protocols. It is effortless to even schedule an appointment through online with multiple benefits across the entire treatment journey.</p>
+        <h4>Top Searches</h4>
+        <h4>Home Workout</h4>
+        <p>HIIT Workout | Toned Body | Body Flexibility Exercises | Calorie Burning Exercises | Physical Fitness | Physical Exercises for Kids | Dancing for Weight Loss | How to Increase Stamina for Running | Core Exercises | Butt Exercises | Chest Workout | Arm Workout | Back Exercises | Abs Workout | Thigh Exercise | Fat Burning Exercises | Dance Exercises | Kids Exercise | Mobility Exercises | Strength Training | Exercise to Reduce Belly Fat | Six Pack | Weight Loss Exercise | How to Increase Stamina | Boxing Workout | Pike Push Ups | Short Workouts | Desk Exercises | Walking Exercises | Pistol Squat | Split Exercise | Pilates</p>
+        <h4>Mindfulness</h4>
+        <p>Yogasana Postures | Yoga For Weight Loss | Kids Yoga | Surya Namaskar | Online Yoga Classes | Yoga For Beginners | Yoga Nidra | Music Meditation | Pranayam | Bedtime Stories | Bedtime Stories For Kids | Mindfulness Meditation | Meditation in Hindi | Sleep Meditation | Meditation</p>
+        <h4>Diagnostic Tests</h4>
+        <p>Thyroid Test | Pregnancy Test | Full Body Checkup | Kidney Function Test | Lipid Profile Test | Online Counselling</p>
+        
+        </div>
+     </div>
+</body>
+</html>
