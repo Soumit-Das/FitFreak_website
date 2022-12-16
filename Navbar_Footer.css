@@ -1,0 +1,146 @@
+
+
+/* Navbar css  */
+
+
+.navbar{
+    /* border: 2px solid red; */
+    width: 99.7%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    width: 100px;
+    mix-blend-mode:lighten;
+}
+
+.nav_parent>.SSS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_parent>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.nav_parent>ul>li>a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.nav_parent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+}
+.Cart_icon{
+    margin-right: 10px;
+}
+.getappbtn{
+    cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+    margin-top:0px ;
+    height: 30px;
+}
+
+.Person_icon{
+    margin-top: 5px;
+}
+
+
+/* Footer Css */
+
+.footer1{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    width: 90%;
+    position: relative;
+    height: auto;
+    background-color: #000;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 80px;
+    z-index: 3;
+}
+#logosimg{
+    display: block;
+}
+.playstorelogos{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.socialmedialogo{
+    margin-top: 40px;
+}
+.footerchilds>ul>li{
+    list-style: none;
+    margin-bottom: 40px;
+    text-align: left;
+    cursor: default;
+    color: #cacaca;
+    font-size: 17px;
+    font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    /* letter-spacing: 0.5px;
+    line-height: 22px; */
+}
+.footerchilds>p{
+
+        text-align: left;
+        cursor: default;
+        margin: 0;
+        color: #cacaca;
+        font-size: 17px;
+        font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        width: 400px;
+        padding-top: 20px;
+}
+.logowithname{
+    display: flex;
+    /* border: 2px solid yellow; */
+}
+.brandname{
+    padding-top: 23px;
+    font-family: 'Varela Round', sans-serif;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(162, 162, 162);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.footerchilds2>ul>li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.socialmedialogo{
+    margin-right: 10px;
+}
