@@ -11,6 +11,118 @@ body{
     /* color: rgb(23,26,38); */
 }
 
+.logindiv{
+    height: 600px;
+    width: 380px;
+    background-color: black;
+    position: absolute;
+    z-index: 100;
+    margin-left: 38%;
+    margin-top: 60px;
+    border-radius: 15px;
+    text-align: center;
+    /* display: inline-block; */
+    visibility: hidden;
+}
+.logindiv>p{
+
+    font-size: 13px;
+        font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.Close_btn{
+    font-size: 30px !important;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* border: 2px solid white; */
+}
+.Logo_inside_login{
+    width: 150px;
+    mix-blend-mode:lighten;
+    margin-top: 50px;
+    margin-left: 56px;
+    margin-right: 50px;
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
+}
+.input_div{
+    display: flex;
+    border-bottom: 3px solid white;
+    width: 250px;
+    margin: auto;
+}
+.input_div>h4{
+ color: white;
+ margin-left: 10px;
+ margin-right: 5px;
+ font-size: 18px;
+ font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.login_email{
+   width: 200px;
+    border: none;
+    text-align: left;
+    background-color: transparent;
+    border-left: 2px solid grey;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    /* letter-spacing: 5px; */
+    padding-left: 5px;
+}
+.login_password{
+    margin-top: 40px;
+    border: 2px solid red;
+}
+.Submit_login{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 73px;
+    height: 38px;
+    width: 240px;
+    border-radius: 5px;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Google_login{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 73px;
+    height: 38px;
+    width: 240px;
+    cursor: pointer;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    border: 1px solid transparent;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+}
+.btn_txt>p{
+    /* color: black; */
+    margin-right: 10px;
+}
+.logindiv>p{
+    color: white;
+}
 .top_section{
     width: 100%;
     height: 700px;
@@ -40,28 +152,19 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    /* padding: 20px; */
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 .Logo{
     width: 100px;
     mix-blend-mode:lighten;
 }
-/* .nav_parent>ul{
-    /* border: 2px solid red; */
-    /* background-color: black; */
-    /* margin: auto; */
-/* }  */
+
 .nav_parent>.SSS{
-    /* border: 2px solid white; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: black; */
-    /* margin: auto; */
 }
 .nav_parent>ul>li{
     list-style: none;
@@ -74,7 +177,6 @@ body{
   font-size: 17px;
 }
 .nav_parent{
-    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
     margin-left: 500px;
@@ -88,9 +190,6 @@ body{
     letter-spacing: 0px;
     line-height: 22px;
 }
-/* .Location_icon{
-    width: ;
-} */
 .Cart_icon{
     margin-right: 10px;
 }
@@ -181,6 +280,26 @@ body{
     /* border: 2px solid red; */
     justify-content: center;
     text-align: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+
+.plans_child_divs>h3{
+    font-size: 27px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    color: rgba(189, 187, 187, 0.6);
+}
+.plans_child_divs>h1{
+    font-size: 34px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+.plans_child_divs>p{
+    margin-top: 20px;
+    color: rgb(255 255 255 / 60%);
+        font-size: 14px;
+        font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 
 .plans_child_divs{
@@ -190,7 +309,7 @@ body{
     border: 1px solid rgb(255 255 255 / 20%);
     flex-basis: 20%;
     border-radius: 10px;
-    padding: 28px 0px 20px;
+    padding: 18px 0px 10px;
     transition: all 300ms ease;
     cursor: pointer;
     margin-right: 25px;
@@ -203,7 +322,7 @@ body{
     color: rgb(228,186,91)
 }
 .plans_child_divs>.Silver{
-    color: rgb(240,240,241)
+    color: rgb(188, 198, 204)
 }
 .plans_child_divs>.Pink{
     color: rgb(174,92,152)
@@ -257,7 +376,7 @@ body{
     margin: 28% 26% 28% 39%;
     text-align: center;
     margin: 0;
-    margin-left: 350px;
+    margin-left: 320px;
     margin-top: 350px;
     font-size: 60px;
     font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
@@ -308,10 +427,10 @@ body{
 }
 .midsection_bottom{
     margin-top: 200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .midsection_bottom>.midsection_bottom_DarkCover{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 100%;
     height: 850px;
     background-color: #000;
@@ -337,6 +456,37 @@ body{
     z-index: 10;
     position: absolute;
 }
+.bottom_section{
+    padding-top: 100px;
+    /* border: 2px solid yellow; */
+
+}
+.ImghoverEff:hover{
+  transform: scale(1.05);
+  z-index: 5;
+  transition: all 0.3s ease-in-out 0s;
+  /* transition: 1s;  */
+ } 
+
+ #ImghoverEffects:hover{
+    transform: scale(1.02);
+    z-index: 5;
+    transition: all 0.3s ease-in-out 0s;
+ }
+
+.bottom_section_heading{
+    color: white;
+    /* position: absolute; */
+    z-index: 8;
+    margin-bottom: 80px;
+    margin-left: 650px;
+    cursor: pointer;
+    font-size: 55px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 38px;
+}
+
 .section1{
     display: flex;
     margin-top: 70px; 
@@ -360,26 +510,33 @@ body{
 .section1>.workoutimgs>.insideimgTxth{
     position: absolute;
     z-index: 4;
-    margin-top: 17%;
+    margin-top: 16%;
     margin-left: 25px;
+    font-size: 35px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 .section1>.workoutimgs>.insideimgTxtp{
     position: absolute;
     z-index: 4;
-    margin-top: 16%;
+    margin-top: 14.3%;
     margin-left: 25px;
+    font-size: 25px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 .section1>.workoutimgs>h4{
         display: block;
-        font-size: 30px;
-        font-weight: bold;
+        color: white;
+        font-size: 26px;
+        /* font-size: 30px; */
         margin-bottom: 20px;
-        margin-top: 10px;
+        margin-top: 30px;
+        font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 .section1>.workoutimgs>ul>li{
     margin-top: 10px;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    color: rgb(255 255 255 / 70%);
 }
 .section1>.workoutimgs>#Elitegoldcolor{
     color: rgb(228,186,91)
@@ -465,6 +622,48 @@ body{
     color: black;
 }
 
+.section2{
+    /* border: 2px solid white; */
+    /* padding-top: 100px; */
+    margin-top: 0;
+    margin-bottom: 100px;
+
+}
+.backgroundBLURimgs{
+    /* border: 2px solid white; */
+    margin-top: 0px;
+    position: absolute; 
+    z-index: 1;
+    height: 1000px;
+}
+/* .backgroundBLURimgs>img{
+    /* border: 2px solid red; */
+/* } */
+
+.blurimgone{
+    width: 350px;
+    height: 350px;
+    margin-left: 34px;
+}
+.blurimgtwo{
+    width: 300px;
+    height: 300px;
+    margin-left: 770px;
+}
+
+.blurimgthree{
+    width: 500px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+.blurimgfour{
+    height: 600px;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 100px;
+    opacity: 0.6;
+}
 
 .section2Maindiv{
     display: grid;
@@ -474,23 +673,27 @@ body{
     text-align: center;
     justify-content: center;
     gap: 55px;
+    margin-top: 100px;
 }
-.section2Maindiv>#localimg>img{
+/* .section2Maindiv>#localimg>img{
     border-radius: 20px;
     margin-top: 200px;
     position: relative;
     z-index: 5;
-    /* height: 100%; */
 }
 .section2Maindiv>#localimg{
     border: 2px solid yellow;
     background-color: rgb(48,50,59);
     border-radius: 20px;
-}
+} */
 .section2divs{
     /* border: 2px solid yellow; */
     width: 550px;
     height: 500px;
+    position: relative;
+    z-index: 5;
+    /* transition: all 0.3s ease 0s; */
+ 
 }
 .textoverimgsdiv{
     color: white;
@@ -517,21 +720,20 @@ body{
     width: 60px;
     margin-top: 20px;
 }
-#localarrowimg{
+/* #localarrowimg{
     position: absolute;
     z-index: 10;
     margin-left: 450px;
     width: 60px;
     margin-bottom: 10px;
-    margin-top: 0;
+    margin-top: 20px;
     top: 0;
-}
-#localimg>.textoverimgsdiv{
-    /* border: 2px solid yellow; */
+} */
+/* #localimg>.textoverimgsdiv{
     margin-left: 0px;
     padding-left: 0px;
-}
-#localimg>.textoverimgsdiv>h2{
+} */
+/* #localimg>.textoverimgsdiv>h2{
     margin-left: 40px;
     left: 0;
     padding-left: 0;
@@ -546,13 +748,13 @@ body{
     margin-top: 0;
     top: 0;
     padding-top: 0;
-    /* margin-bottom: 100px; */
+
 }
 #localimg>.textoverimgsdiv{
     height: 100px;
     margin: auto;
     text-align: center;
-}
+} */
 
 .section3{
     margin-top: 50px;
@@ -617,20 +819,21 @@ body{
     margin-left: 150px;
     border-radius: 20px;
 }
+
 .spacewaster2{
     height: 600px;
 }
 .section4{
     display: flex;
     justify-content: center;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 .section4>.section4imgs>img{
     width: 600px;
     margin-right: 30px;
 }
 .section4imgs{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 .upperimg{
     position: absolute;
@@ -641,7 +844,7 @@ body{
 }
 .upperimgdiv{
     /* text-align: center; */
-     border: 2px solid red;
+     /* border: 2px solid red; */
 
 }
 .upperheader{
@@ -687,7 +890,39 @@ body{
     line-height: 35px;
     margin-bottom: 6%;
 }
+/* .section5{
+    position: relative;
+    z-index: 10;
+} */
+.bgdiv{
+    /* border: 2px solid yellow; */
+    height: 47vw;
+    margin-bottom: 0px;
+    min-height: 500px;
+    width: 100vw;
+    background-size: 100% 100%;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1000,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/we_are_cult_new.svg);
+}
+.txtdiv{
+    color: white;
+    float: right;
+    margin-top:200px ;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    /* border: 2px solid red; */
+}
 
+.txtdiv>p{
+    text-align: left;
+        cursor: default;
+        margin: 0;
+        color: rgb(255 255 255 / 70%);
+        font-size: 22px;
+        font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        letter-spacing: -0.3px;
+        line-height: 35px;
+
+}
 
 /* Footer */
 
@@ -695,7 +930,6 @@ body{
     display: flex;
     color: white;
     justify-content: space-evenly;
-    margin-top: 50px;
     width: 90%;
     position: relative;
     height: auto;
@@ -703,6 +937,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 100px 80px;
+    z-index: 3;
 }
 #logosimg{
     display: block;
