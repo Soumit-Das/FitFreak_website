@@ -1,0 +1,46 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+#nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;    
+}
+#nav>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+#nav>div:nth-child(1)>img{
+height: 50%;
+}
+#nav>div:nth-child(2){
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+#slide{
+    width: 100%;
+
+}
+#slide>img{
+
+    width: 100%;;
+
+}
+#tshirts :first-child{
+    display: flex;
+    flex-direction: row;
+
+}
