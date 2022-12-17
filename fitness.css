@@ -1,0 +1,389 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom, #020924 0%, #000000eb 100%)
+}
+
+#bg_img{
+    width: 100%;
+    height: auto;
+    background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1600,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/838176af-9e82-4817-b9b4-e4bd03ed7271.png');
+    background-size: cover;
+
+    background-position: center;
+
+    padding-bottom: 10px;
+}
+
+
+/* 2nd nav_bar */
+
+#nav_bar{
+
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(79, 78, 78);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#some_otption{
+
+    width: 60%;
+
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+#some_otption~div{
+
+    margin-right: 100px;
+}
+#nav_bar button{
+ 
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    /* background-color: rgb(123, 122, 122); */
+    border: 1px solid #ffff;
+    border: none    ;
+    color: rgb(35, 32, 32);
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+/* ------------- 2nd button  */
+
+#try_button{
+
+
+    text-align: center;
+    margin-top: 600px;
+     
+
+}
+#try_button button{
+
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: rgba(247, 77, 10, 0.821);
+}
+/* -----------3 offers */
+#practice{
+    width: 70%;
+    /* height: 400px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    /* border: 1px solid green; */
+    color: azure;
+    font-size: 40px;
+    text-align: center;
+    /* margin-bottom: 100px; */
+    
+}
+#practice>div{
+width: 30%;
+border: 2px solid rgba(124, 124, 124, 0.597);
+padding: 25px;
+margin-right: 25px;
+padding-left: 35px;
+padding-right: 35px;
+background-color: rgba(54, 53, 53, 0.305);
+border-radius: 15px;
+
+
+}
+#practice>div p{
+
+    font-size: 17px;
+}
+
+/* ----------------slide offer limited time  */
+
+#offer_limited_time{
+
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    
+
+}
+#offer_limited_time div img{
+
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+/* --------------------trainer part  */
+
+#trainer_main{
+
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    
+}
+#trainer_main h4{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+#trainer_main h1{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size:50px;
+
+}
+#trainer_main>div{
+width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+}#trainer_main>div div{
+
+    width: 22%;
+}
+
+#trainer_main>div img{
+
+    width: 100%;
+
+    
+}
+
+#trainer_main>div img:hover{
+
+    transform: scale(1.1);
+}
+
+
+/* --------------------table compare  */
+
+/* 
+#com_table{
+
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    color: white;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  } */
+
+  /* ------------------FREE TRIALS------------------- */
+
+  #trainer_Free{
+
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    
+
+  }
+
+  #trainer_Free h1{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size:50px;
+    font-weight: 800;
+
+}
+
+  #trainer_Free>div{
+    width: 100%;
+    
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 70px;
+    
+    }#trainer_Free>div div{
+    
+        width: 27%;
+    }
+    
+    #trainer_Free>div img{
+    
+        width: 100%;
+    
+        
+    }
+    
+    #trainer_Free>div img:hover{
+    
+        transform: scale(1.1);
+    }
+    /* <!-- -------------- Details of offers  --> */
+
+
+    #Offers_main{
+
+        width: 100%;
+        height: auto;
+        background-color: rgb(4, 10, 40);
+    /* border: 1px solid red */
+    }
+
+     
+    #offers_F{
+
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: space-evenly;
+         
+       
+    }
+    #offer_elite_divF{
+
+        width: 30%;
+        margin-top: 80px;   
+        color: white;
+        text-align: start;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 30px;
+
+    }
+    #offer_elite_divS{
+
+        width: 40%;
+        
+        margin-top: 80px;
+        
+    }
+
+    #offer_elite_divF h1{
+
+        font-size: 47px;
+        margin-bottom: 30px;
+    }
+    #offer_elite_divF h3{
+
+        font-size: 38px;
+        margin-bottom: 30px;
+        
+       
+    }
+
+    #offer_elite_divF h6{
+
+            font-size: 25px;
+            margin-bottom: 20px;
+
+    }
+
+
+    #offer_elite_divF>img{
+
+        width: 20px;
+        /* margin-bottom: 35px; */
+
+    }
+    #offer_elite_divF>span{
+
+         
+        margin-left: 10px;
+        font-size: 18px;
+        color: rgba(175, 175, 175, 0.811);
+        font-weight: 800;
+
+    }
+    #offer_elite_divF>h6{
+
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    #offer_elite_divF>button{
+        margin-bottom: 10px;
+    }
+
+    #offer_elite_divF>button{
+
+        padding: 8px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    }
+
+    #offer_elite_divF>button span{
+
+        font-size: 100px;
+    }
+
+    #offer_elite_divS img{
+
+        width: 100%;
+        border-radius: 50px;
+    }
+
+     
+    /* ---------------------lose weigth Diet  */
+
+     #diet{
+
+    padding: 55px;
+     }
+    #diet_poster{
+
+        width: 90%;
+
+        margin: auto;
+    }
+    #diet_poster img{
+
+        width: 100%;
+        margin: auto;
+    }
