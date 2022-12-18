@@ -31,6 +31,15 @@ body{
     background-color: rgb(79, 78, 78);
     padding-top: 7px;
     padding-bottom: 7px;
+    
+
+    /* overflow: hidden; */
+   
+    
+    position: sticky;
+    width: 100%;
+    top: 0; 
+    z-index: 99;
 }
 
 #some_otption{
@@ -86,6 +95,10 @@ body{
     font-weight: 600;
     color: rgba(247, 77, 10, 0.821);
 }
+#try_button button:hover{
+
+    color: black;
+}
 /* -----------3 offers */
 #practice{
     width: 70%;
@@ -98,6 +111,7 @@ body{
     color: azure;
     font-size: 40px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* margin-bottom: 100px; */
     
 }
@@ -113,6 +127,19 @@ border-radius: 15px;
 
 
 }
+#practice>div h5{
+
+    color: rgb(154, 153, 153);
+    font-size: 28px;
+    margin-bottom: 3px;
+    font-weight: bolder;
+}
+#practice>div h4{
+    margin-bottom: 10px ;
+    font-size: 40px;
+    
+    
+}
 #practice>div p{
 
     font-size: 17px;
@@ -125,9 +152,13 @@ border-radius: 15px;
     width: 80%;
     margin: auto;
     margin-top: 100px;
+    display: grid;
+    place-items:center;
     
 
 }
+
+ 
 #offer_limited_time div img{
 
     width: 100%;
@@ -268,8 +299,13 @@ table {
 
         width: 100%;
         height: auto;
-        background-color: rgb(4, 10, 40);
+        /* background-color: rgb(4, 10, 40); */
     /* border: 1px solid red */
+
+    background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/cornflower-blue-blur-circle.svg');
+    background-size: cover;
+
+    background-position:top;
     }
 
      
@@ -386,4 +422,192 @@ table {
 
         width: 100%;
         margin: auto;
+    }
+
+    /* <!-- --------------------a png --> */
+
+#a_image>div{
+
+width: 80%;
+margin: auto;
+margin-top: 120px;
+margin-bottom: 50px;
+
+
+}
+#a_image>div img{
+
+    width: 100%;
+    border-radius: 30px;
+}
+
+#a_image>div:hover{
+
+    transform: scale(1.1);
+    
+}
+
+/* <!-- ------------video home work out  -->  */
+ 
+
+/* .v_work{
+
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-image: linear-gradient(rgba(12,3.51,0.3),rgba(12,3.51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.back-video{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.content_v{
+
+     */
+
+    
+    
+     /* -----------table image  */
+
+     #table{
+        width: 100%;
+        background-color: rgba(31, 31, 31, 0.886);
+     }
+
+     #table_img{
+
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        color: white;
+        text-align: center;
+        padding: 50px;
+       
+        
+
+     }
+     #table_img h2{
+
+        font-size: 55px;
+     margin-bottom: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     #table_img p{
+
+        font-size: 22px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 25px;
+        color: rgb(172, 169, 169);
+     }
+     #table_img img{
+
+        width: 100%;
+        transform: scale(1.0);
+        border-radius: 30px;
+        /* margin-left: 20px; */
+     }
+     #table_img img:hover{
+
+        transform: scale(1.05);
+        opacity: 100%;
+     }
+
+
+     /* ------------------bg  */
+     #Offers_mai{
+        width: 100%;
+        /* height: auto; */
+        background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1600,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/e33780ba-8a13-4254-b2f1-2b50be6273e0.svg');
+        background-size: cover;
+    
+        background-position: center;
+    
+        padding-bottom: 200px;
+
+
+     }
+     #Offers_mai div{
+
+        margin-top: 150px;
+     }
+
+
+
+     /* --------------------FAQS  -----PART */
+.quest{
+    padding-bottom: 20px;
+    /* margin-top: 25px; */
+}
+     .content{
+
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        margin-top: 150px;
+        margin-bottom: 70px;
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+
+     .content h2{
+
+    font-size: 38px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+}
+.content h5{
+
+    color: rgba(147, 147, 147, 0.958);
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.content p{
+
+    color: rgb(211, 206, 206);
+    font-size: 18px;
+    font-weight: 800;
+}
+ 
+
+     details {
+        padding-left: 180px;
+        margin-bottom: 35px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    details>summary {
+        color: rgba(255, 255, 255, 0.719);
+        font-size: 29px;
+        /* line-height: 60px; */
+    }
+
+    details p {
+        color: rgba(255, 255, 255, 0.733);
+        padding-right: 50px;
+        background-color: rgb(42, 41, 41);
+        margin-right: 50px;
+        padding-left: 75px;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 30px;
+
+    }
+
+    details >div{
+
+        padding: 25px;
     }
