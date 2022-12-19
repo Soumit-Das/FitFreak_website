@@ -1,5 +1,7 @@
 arr = JSON.parse(localStorage.getItem("cardDetail"))
 
+// let arr2 = []
+
 let photu = document.querySelector("#photu");
 let disc = document.querySelector("#disc");
 let head = document.querySelector(".head");
@@ -19,6 +21,7 @@ heading.innerText = arr.name
 rate.innerText = "₹ "+arr.price
 
 btn.addEventListener("click",()=>{
+
  sessionStorage.setItem("cart_Data",JSON.stringify(arr))
  alert("Added to cart")
 })

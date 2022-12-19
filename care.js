@@ -18,6 +18,7 @@ function displayData(res){
     let img= document.createElement("img")
     img.src = ele.img;
     img.addEventListener("click",()=>{
+      
       localStorage.setItem("cardDetail",JSON.stringify(ele))
     //   alert("hii")
       location.href = "cardpg.html"  
@@ -34,5 +35,5 @@ loader.style.display="flex"
 setTimeout(()=>{
   main.style.display="block"
   loader.style.display="none"
-},0)
+},2000)
 };
