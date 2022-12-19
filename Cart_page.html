@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartpage</title>
+    <link rel="stylesheet" href="Cart_page.css">
+</head>
+<body>
+
+
+    <div class="admin_navbar">
+        <nav class="navbar">
+            <img class="Logo" src="/Images/logo .png" alt="Logo image broken">
+            <h3>FIT FREAK</h3>
+            <a href="/index.html">
+                <div class="home_button">
+                    <p> HOME</p>
+                </div>
+            </a>
+         
+            <div class="nav_parent">
+
+                <div class="child_items"><a href="/profile.html"><img  class="Person_icon"  width="35px" src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/header/Profile.png" alt=""></a></div>
+                <!-- <div class="child_items"> <P>Ajlss</P></div> -->
+                                      
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <h1 class="Total-Price"></h1>
+    </div>
+    <div class="totalcart">
+        <div class="cartcontainer">
+    
+        </div>
+<div class="cartdetails">
+    <table  border="1 | 0">
+        <thead>
+            <th>Items</th>
+            <th>Price</th>
+        </thead>
+        <tbody id="tablebody">
+
+            
+        </tbody>
+        <tfoot>
+            <tr class="border-bottom">
+                <td class="totaltxt">Total</td>
+                <td id="Subtotal"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="buttondiv">
+
+        <button id="Checkoutbutton" onclick="Checkoutfun()">Checkout</button>
+    </div>
+</div>
+    </div>
+</body>
+</html>
+<script src="Cart_page.js">
+
+</script>

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: rgb(23,26,38);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.admin_navbar{
+    background: rgb(255 255 255 / 10%);
+    border: 1px solid rgb(255 255 255 / 20%);
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.admin_navbar>a{
+    color: white;
+    text-decoration: none;
+}
+.home_button{
+    color: white;
+    /* border: 2px solid red; */
+    margin-left: 500px;
+    font-size: 18px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+.navbar>h3{
+    /* padding-top: 23px; */
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.admin_sidebar_menu{
+    height: 594px;
+    width: 270px;
+    /* border: 2px solid red; */
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 7px;
+    border-radius: 5px;
+    background: rgb(255 255 255 / 10%);
+    border: 1px solid rgb(255 255 255 / 20%);
+}
+.navbar{
+    /* border: 2px solid red; */
+    width: 99.7%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    width: 100px;
+    mix-blend-mode:lighten;
+}
+
+.nav_parent>.SSS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_parent>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.nav_parent>ul>li>a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.nav_parent{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    width: 100px;
+    align-items: right;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+}
+/* .child_items{
+ /* border: 2px solid red; */
+
+.nav_parent>.child_items:nth-child(1){
+    padding-top: 5px;
+}
+.nav_parent>.child_items:nth-child(2){
+    /* color: yellow; */
+    padding-bottom: 2px;
+}
+.Cart_icon{
+    margin-right: 10px;
+}
+.getappbtn{
+    cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+    margin-top:0px ;
+    height: 30px;
+}
+
+.Person_icon{
+    margin-top: 5px;
+}
+
+.admin_sidebar_menu{
+    color: white;
+
+}
+.options,#stats{
+    border-bottom: 2px solid rgb(255 255 255 / 20%);
+    font-size: 20px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    margin: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.options:hover{
+    color: rgb(255 255 255 / 60%);
+}
+
+
+.cartcontainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+  }
+ .cartcontainer>div>img{
+    width: 100%;
+  }
+  .totalcart{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.cartcontainer{
+  /* border: 2px solid red; */
+  width: 90%;
+}
+.totaltxt{
+  text-align: center;
+}
+.cartdetails{
+/* border: 2px solid blue; */
+border: 2px solid white;
+margin-right: 70px;
+border-radius: 5px;
+/* width: 200px; */
+height: 600px;
+}
+table{
+  border-collapse: collapse;
+  border-left: 0px solid black;
+  border-right: 0px solid black;
+  border-top: 0px;
+  border-collapse: separate;
+    border-spacing: 0 15px;
+    color: white;
+    width: 300px;
+    /* height: 100px; */
+    margin-right: 20px;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+  }
+  tr.border-bottom td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2pt solid white;
+    border-top: 2px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    border-right: 2px solid black;
+  }
+  #Subtotal{
+    text-align: center;
+    
+  }
+  #tablebody>tr>td{
+    border-left: 0px;
+    border-right: 0px;
+  }
+.buttondiv{
+    /* border: 2px solid red; */
+}
+  #Checkoutbutton{
+    cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+    margin-top:0px;
+    height: 30px;
+    /* margin-top: 340px; */
+    margin-left: 36%;
+}
+  /* border-collapse: separate;
+  border-spacing: 0 15px; */

@@ -5,11 +5,19 @@
 let Login_btn = document.querySelector(".Person_icon")
 let get_otp_btn = document.querySelector(".otp_div")
 let submit_btn = document.querySelector(".Submit_login")
+let already_loged_in = 0
+
 
 Login_btn.addEventListener("click",function loginfun(){
     // alert("Login button is working")
-    document.querySelector(".logindiv").style.visibility = "visible"
-    submit_btn.style.marginTop = "55px"
+    if(already_loged_in == 0){
+
+        document.querySelector(".logindiv").style.visibility = "visible"
+        submit_btn.style.marginTop = "55px"
+        already_loged_in++
+    }else{
+        window.location.href = "/profile.html"
+    }
 // window.addEventListener("scroll",noscroll)
 // function noscroll(){
 //     window.scrollTo(0,0)
@@ -98,6 +106,7 @@ Login_btn.addEventListener("click",function loginfun(){
                     if(Number(otp_value) == a){
                         alert("Login Successfull")
                         document.querySelector(".logindiv").style.visibility = "hidden"
+                        window.location.href = "/profile.html"
                     }
                     else{
                         alert("Invalid OTP")
@@ -120,6 +129,7 @@ Login_btn.addEventListener("click",function loginfun(){
         
     })
 })
+
 
 
 // get otp btn

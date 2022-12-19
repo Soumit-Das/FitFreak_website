@@ -8,12 +8,12 @@
 
 
 
-// window.addEventListener("load",function loginfun(){
-//     // alert("Login button is working")
-//     document.querySelector(".logindiv").style.visibility = "visible"
+window.addEventListener("load",function loginfun(){
+    // alert("Login button is working")
+    document.querySelector(".logindiv").style.visibility = "visible"
 
-// let Blur = document.getElementById("blur")
-// Blur.classList.toggle('active')
+let Blur = document.getElementById("blur")
+Blur.classList.toggle('active')
 
 
 
@@ -22,7 +22,7 @@
 // // function noscroll(){
 // //     window.scrollTo(0,0)
 
-// // }
+// }
 
 
 //     // alert("login")
@@ -31,7 +31,7 @@
 //     // document.querySelector(".logindiv").style.transition = "all 1s ease-in-out 0s"
 
 
-// })
+})
 
 let close_login = document.querySelector(".Close_btn")
 
@@ -59,7 +59,7 @@ let submit_button = document.querySelector(".Submit_login")
 submit_button.addEventListener("click",function submitfun(){
     let name = document.querySelector(".login_email").value
     // alert(number)
-    if(name == "Soumit"){
+    if(name == "Soumit" || name =="Amit" || name =="Sonu" || name =="Jaydip" || name =="Lohitash"){
         document.querySelector(".logindiv").style.visibility = "hidden"
         // let Remove_Blur = this.document.getElementById("blur")
         // Remove_Blur.classList.remove('active')
@@ -73,7 +73,7 @@ submit_button.addEventListener("click",function submitfun(){
 
     }
     else{
-        alert("wrong number")
+        alert("wrong password")
     }
 })
 
@@ -132,7 +132,7 @@ submit_button.addEventListener("click",function submitfun(){
                 }
             })
             if(rawdata.ok){
-                alert("fetch working")
+                // alert("fetch working")
                 let convert = await rawdata.json()
                 // console.log(convert)
                 rendercards(convert)
