@@ -50,6 +50,7 @@ body{
     border-bottom: 3px solid white;
     width: 250px;
     margin: auto;
+    /* border: 2px solid red; */
 }
 .input_div>h4{
  color: white;
@@ -71,12 +72,51 @@ body{
     /* letter-spacing: 5px; */
     padding-left: 5px;
 }
-.login_password{
-    margin-top: 40px;
-    border: 2px solid red;
+.otp_login{
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    /* z-index: 5; */
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-bottom: 3px solid white;
+    width: 250px;
+    margin: auto;
+    /* visibility: visible; */
+}
+.get_otp{
+    margin-top:15px;
+    /* border: 2px solid red; */
+    background-color: white;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 73px;
+    height: 38px;
+    width: 240px;
+    border-radius: 5px;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    cursor: pointer; 
+    position: absolute;
+    z-index: 10;
+    /* visibility: hidden; */
 }
 .Submit_login{
-    margin-top: 20px;
+    margin-top:55px;
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
@@ -93,10 +133,10 @@ body{
     cursor: pointer;
 }
 .Google_login{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    border: 2px solid red;
+    /* margin-top: 5px; */
+    margin-bottom: 20px;
+    margin-top: 15px;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,8 +159,21 @@ body{
     /* color: black; */
     margin-right: 10px;
 }
+
+.Admin_login_anchor{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.Admin_login_txt{
+    border-bottom: 2px solid white;
+    width: 100px;
+    margin: auto;
+}
 .logindiv>p{
     color: white;
+    margin-top: 20px;
 }
 .top_section{
     width: 100%;
@@ -131,6 +184,8 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+
 
 .top_section .color_overlay{
    width: 100%;

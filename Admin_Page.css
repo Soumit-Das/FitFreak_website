@@ -8,6 +8,144 @@ body{
     margin-right: 0px;
     margin-bottom: 0px;
 }
+.logindiv{
+    height: 600px;
+    width: 380px;
+    background-color: black;
+    position: absolute;
+    z-index: 100;
+    margin-left: 38%;
+    margin-top: 60px;
+    border-radius: 15px;
+    text-align: center;
+    visibility: hidden;
+}
+.logindiv>p{
+
+    font-size: 13px;
+        font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.Close_btn{
+    font-size: 30px !important;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    /* border: 2px solid white; */
+}
+.close_anchor{
+    
+    text-decoration: none;
+}
+.full_admin_page#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+.Logo_inside_login{
+    width: 150px;
+    mix-blend-mode:lighten;
+    margin-top: 50px;
+    margin-left: 56px;
+    margin-right: 50px;
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
+}
+.input_div{
+    display: flex;
+    border-bottom: 3px solid white;
+    width: 250px;
+    margin: auto;
+    height: auto;
+}
+.input_div>h4{
+ color: white;
+ /* border: 2px solid red; */
+ margin-left: 10px;
+ margin-right: 5px;
+ margin-bottom: 0px;
+ margin-top: 0px;
+ font-size: 18px;
+ font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.login_email{
+   width: 200px;
+    border: none;
+    text-align: left;
+    background-color: transparent;
+    border-left: 2px solid grey;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    /* letter-spacing: 5px; */
+    padding-left: 5px;
+}
+.login_password{
+    margin-top: 40px;
+    border: 2px solid red;
+}
+.Submit_login{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 73px;
+    height: 38px;
+    width: 240px;
+    border-radius: 5px;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Google_login{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 73px;
+    height: 38px;
+    width: 240px;
+    cursor: pointer;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    border: 1px solid transparent;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+}
+.btn_txt>p{
+    /* color: black; */
+    margin-right: 10px;
+}
+
+.Admin_login_anchor{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.Admin_login_txt{
+    border-bottom: 2px solid white;
+    width: 100px;
+    margin: auto;
+}
+.logindiv>p{
+    color: white;
+    margin-top: 20px;
+}
 .admin_navbar{
     background: rgb(255 255 255 / 10%);
     border: 1px solid rgb(255 255 255 / 20%);
@@ -151,7 +289,7 @@ body{
     z-index: 2;
     margin-left: 300px;
     visibility: hidden;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 15px;
     width: 79%;
     height: auto;
@@ -162,6 +300,7 @@ body{
     margin-left: 300px;
     visibility: hidden;
 }
+
 .topdata{
     /* border: 2px solid red; */
     width: 1200px;
@@ -209,15 +348,22 @@ body{
     border: 1px solid rgb(255 255 255 / 20%);
 }
 .cards>h2{
-  font-size: 20px;  
+  font-size: 16px;  
   margin-left: 10px;
   margin-bottom: 3px;
   margin-top: 5px;
+  font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+font-weight: 10;
+}
+.cards>img{
+    border-radius: 10px 10px 0px 0px;
 }
 .cards>p{
-    margin-top: 2px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 0px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 13px;
 }
 .btndiv{
     text-align: center;
@@ -229,10 +375,62 @@ body{
     border: 1px solid rgb(255 255 255 / 20%);
     border-radius: 10px;
     margin: 5px;
+
 }
 .btndiv>button:nth-child(1){
     color: yellow;
 }
 .btndiv>button:nth-child(2){
     color: rgb(230, 23, 23);
+}
+.Add_Product_div{
+    border: 2px solid red;
+    width: 550px;
+    height: 450px;
+    margin-left: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 130px;
+}
+.forms{
+    border: 2px solid yellow;
+    text-align: center;
+    padding-left: 70px;
+    padding-bottom: 150px;
+}
+#name,#img,#disc,#price{
+    margin-bottom: 20px;
+    display: flex;
+    border-bottom: 3px solid white;
+    color: white;
+    width: 250px;
+    /* margin: auto; */
+    height: auto;
+    background: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+}
+.Add_btn{
+    margin-left: 70px;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 8px; */
+    height: 38px;
+    width: 240px;
+    border-radius: 5px;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    cursor: pointer;
 }
