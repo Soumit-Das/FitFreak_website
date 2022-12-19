@@ -26,6 +26,7 @@ function displayData(res){
   })
 }
 
+
 loader = document.querySelector("#loader")
 main = document.querySelector("#main")
 window.onload = () => {
@@ -36,3 +37,4 @@ setTimeout(()=>{
   loader.style.display="none"
 },2500)
 };
+
