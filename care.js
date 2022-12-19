@@ -34,5 +34,5 @@ loader.style.display="flex"
 setTimeout(()=>{
   main.style.display="block"
   loader.style.display="none"
-},3000)
+},2500)
 };

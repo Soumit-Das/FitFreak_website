@@ -93,6 +93,7 @@
     #bottom {
         padding-left: 180px;
         line-height: 20px;
+        margin-top: 80px;
     }
 
     .H {
@@ -136,6 +137,11 @@
     }
     #myfoot{
         width: 100%;
+    }
+    #fut2{
+       /* border: 5px solid red; */
+       margin-top:1%;
+       margin-bottom: -60px;
     }
 
 /* loader */
