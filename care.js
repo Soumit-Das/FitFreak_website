@@ -18,7 +18,7 @@ function displayData(res){
     let img= document.createElement("img")
     img.src = ele.img;
     img.addEventListener("click",()=>{
-      
+      // console.log(ele)
       localStorage.setItem("cardDetail",JSON.stringify(ele))
     //   alert("hii")
       location.href = "cardpg.html"  

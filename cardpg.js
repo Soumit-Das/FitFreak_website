@@ -21,8 +21,10 @@ heading.innerText = arr.name
 rate.innerText = "₹ "+arr.price
 
 btn.addEventListener("click",()=>{
-
- sessionStorage.setItem("cart_Data",JSON.stringify(arr))
+carting = JSON.parse(localStorage.getItem("carting")) || []
+carting.push(arr)
+//  sessionStorage.setItem("cart_Data",JSON.stringify(arr))
+localStorage.setItem("carting",JSON.stringify(carting))
  alert("Added to cart")
 })
 loader = document.querySelector("#loader")

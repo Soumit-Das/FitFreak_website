@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Work+Sans:wght@300&family=Xanh+Mono&display=swap');
+
+.wholecontainer{
+    display: flex;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: rgb(23,26,38);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.admin_navbar{
+    background: rgb(255 255 255 / 10%);
+    border: 1px solid rgb(255 255 255 / 20%);
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.admin_navbar>a{
+    color: white;
+    text-decoration: none;
+}
+.home_button{
+    color: white;
+    /* border: 2px solid red; */
+    margin-left: 500px;
+    font-size: 18px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+.navbar>h3{
+    /* padding-top: 23px; */
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.admin_sidebar_menu{
+    height: 594px;
+    width: 270px;
+    /* border: 2px solid red; */
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 7px;
+    border-radius: 5px;
+    background: rgb(255 255 255 / 10%);
+    border: 1px solid rgb(255 255 255 / 20%);
+}
+.navbar{
+    /* border: 2px solid red; */
+    width: 99.7%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    width: 100px;
+    mix-blend-mode:lighten;
+}
+
+.nav_parent>.SSS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_parent>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.nav_parent>ul>li>a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.nav_parent{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    width: 100px;
+    align-items: right;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+}
+/* .child_items{
+ /* border: 2px solid red; */
+
+.nav_parent>.child_items:nth-child(1){
+    padding-top: 5px;
+}
+.nav_parent>.child_items:nth-child(2){
+    /* color: yellow; */
+    padding-bottom: 2px;
+}
+.Cart_icon{
+    margin-right: 10px;
+}
+.getappbtn{
+    cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+    margin-top:0px ;
+    height: 30px;
+}
+
+.Person_icon{
+    margin-top: 5px;
+}
+
+.admin_sidebar_menu{
+    color: white;
+
+}
+.UPI_payment{
+    border: 2px solid white;
+    margin: 20px;
+}
+.Card_payment{
+    border: 2px solid white;
+    margin: 20px;
+}
+.payment_success{
+    color: white;
+    width: 300px;
+    height: 400px;
+    border: 2px solid white;
+    margin: 20px;
+}
+.appointment{
+    border: 2px solid white;
+    margin: 20px;
+    color: white;
+}
+.details_table{
+    margin: auto;
+    width: 800px;
+    border: 2px solid white;
+    height: auto;
+    text-align: center;
+}

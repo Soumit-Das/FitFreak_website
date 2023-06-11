@@ -1,55 +1,62 @@
 let count = 1
 let cartbag = 0
-let Carts = JSON.parse(sessionStorage.getItem("cart_Data")) || []
-// displayCart(Carts)
+let Carts = JSON.parse(localStorage.getItem("carting")) || []
+displayCart(Carts)
 console.log(Carts)
 
 // localStorage.clear()
 
-// function displayCart(Carts){
-//     // bag.forEach()
-//     document.querySelector(".cartcontainer").innerText = "";
-//     Carts.forEach((ele,index)=>{
+function displayCart(Carts){
+    // bag.forEach()
+    document.querySelector(".cartcontainer").innerText = "";
+    Carts.forEach((ele,index)=>{
 
-//       let divs = document.createElement("div")
+      let divs = document.createElement("div")
+      divs.style.height = "400px"
   
-//      let image = document.createElement("img")
-//       image.setAttribute("src",ele.img)
+     let image = document.createElement("img")
+      image.setAttribute("src",ele.img)
   
-//       let company = document.createElement("h2")
-//       company.innerText = ele.name
+      let company = document.createElement("h2")
+      company.innerText = ele.name
+      company.style.fontSize = "19px"
+      company.style.marginLeft = "10px"
   
-//       let cost = document.createElement("h3")
-//       cost.innerText = ele.price
-  
+      let cost = document.createElement("h3")
+      cost.innerText = `₹ ${ele.price}`
+      cost.style.marginLeft = "10px"
+      cost.style.paddingBottom = "0px"
       
       
 
-//       let btn3 = document.createElement("button")
-//       btn3.innerText = "Remove"
-//       btn3.addEventListener("click",()=>{
-//         delfun(ele,index)
-//       })
+      let btn3 = document.createElement("button")
+      btn3.innerText = "Remove"
+      btn3.style.marginLeft = "10px"
+      btn3.className = "RemoveBtn"
+      btn3.addEventListener("click",()=>{
+        delfun(ele,index)
+        window.location.reload()
+      })
 
 
-//       // console.log(Carts.length*ele.price)
-//       // let totalCost =  Carts.length*ele.price
-//       // cartbag = ele.price*count
+      // console.log(Carts.length*ele.price)
+      // let totalCost =  Carts.length*ele.price
+      // cartbag = ele.price*count
   
-//     //  console.log("a")
-//   // console.log(cost.textContent+"S")
-//     //  console.log(cartbag+"S")
-//      divs.append(image,company,cost)
-//      document.querySelector(".cartcontainer").append(divs)
+    //  console.log("a")
+  // console.log(cost.textContent+"S")
+    //  console.log(cartbag+"S")
+     divs.append(image,company,cost,btn3)
+     document.querySelector(".cartcontainer").append(divs)
   
     
-//     })
-//   }
+    })
+  }
   function delfun(ele,index){
     Carts.splice(index,1)
     console.log(Carts)
     displayCart(Carts)
-    localStorage.setItem("CartItems",JSON.stringify(Carts))
+    localStorage.setItem("carting",JSON.stringify(Carts))
   }
    
 
@@ -99,7 +106,7 @@ document.querySelector("#Subtotal").append(sum)
 
  function Checkoutfun(){
   localStorage.setItem("Carttotal",sum)
-window.location.assign("Checkout.html")
+window.location.assign("Payment_Page.html")
 
  }
 
